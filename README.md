@@ -66,4 +66,8 @@ rails destroy model ModelName
 ```
 bundle exec rake db:rollback
 ```
+#####To go all the way back to the beginning and undoing the first migration
+```
+bundle exec rake db:migrate VERSION=0
+```
 
