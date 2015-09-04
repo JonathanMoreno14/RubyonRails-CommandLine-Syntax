@@ -73,7 +73,7 @@ bundle exec rake db:migrate VERSION=0
 ###Manually adding action/controllers to the rails app
 In your file directory you first go to your routes file
 
-config/routes.rb
+**config/routes.rb**
 
 For example we will add contact to the routes file
 
@@ -83,10 +83,27 @@ Rails.application.routes.draw do
   get 'ControllerName/actionname2'
   get 'ControllerName/contact'
   
-  
-  
 end
 ```
+From there we add contact to the controller
 
+Go into your file directory for the controller.rb file
 
+**app/controllers/controller_name.rb**
+
+Add the following:
+
+```ruby
+class StaticPagesController < ApplicationController
+
+  def actionname1
+  end
+
+  def actionname2
+  end
+
+  def contact
+  end
+end
+```
 
