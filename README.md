@@ -42,7 +42,7 @@ Example: rails generate controller staticPages home about contact help
 ```
 
 ###Rails shortcuts
-| Full command        | Shortcut         | 
+| Full command        | Shortcut  | 
 | ------------- |:-------------:| 
 | rails server     | rails s | 
 | rails console      | rails c |   
@@ -50,5 +50,17 @@ Example: rails generate controller staticPages home about contact help
 | bundle install | bundle |    
 | rake test | rake  |    
 
+#####Rails Destroy
+```
+rails destroy
+```
+######Destroys the controller
+```
+rails destroy controller ControllerName <optional action names>
+```
+######Destroys the model
+```
+rails destroy model ModelName
+```
 
 
