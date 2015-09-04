@@ -26,4 +26,14 @@ bundle update
 ```
 git mv README.rdoc README.md
 ```
+#####Controller generation
+```
+rails generate controller ControllerName <optional action names>
+
+Example: rails generate controller staticPages home about contact help
+```
+
+
+
+
 
