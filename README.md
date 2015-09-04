@@ -6,9 +6,20 @@ This repository is a list of Command Line features used in the process of creati
 ```
 rails new 'appname'
 ```
+#####To install all the necessary gems for your Rails application
+```
+ cd appname/
+ 
+ bundle install
+```
+
 #####Connecting to the Rails to the server
 ```
 rails sever
+```
+#####updating the gems in the rails application
+```
+bundle update
 ```
 #####Updating database
 ```
@@ -18,10 +29,7 @@ bundle exec rake db:migrate
 ```
 bundle exec rake -T
 ```
-#####updating the gems in the rails application
-```
-bundle update
-```
+
 #####An important feature for changing the format from RDoc to Markdown
 ```
 git mv README.rdoc README.md
