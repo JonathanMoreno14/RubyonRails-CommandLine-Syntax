@@ -75,7 +75,7 @@ In your file directory you first go to your routes file
 
 **config/routes.rb**
 
-For example we will add contact to the routes file
+The example we will be using is contact. Add contact to the routes file
 
 ```ruby
 Rails.application.routes.draw do
@@ -92,7 +92,7 @@ From there we add contact to the controller go into your file directory for the 
 Add the following:
 
 ```ruby
-class StaticPagesController < ApplicationController
+class ControllerName < ApplicationController
 
   def actionname1
   end
@@ -103,5 +103,12 @@ class StaticPagesController < ApplicationController
   def contact
   end
 end
+```
+Finally you create the action contact file : contact.html.erb. You can add this manually or using the command line
+
+####Touch is used to add files 
+```
+touch app/views/ControllerName/contact.html.erb
+
 ```
 
