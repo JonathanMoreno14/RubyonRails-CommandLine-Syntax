@@ -108,7 +108,7 @@ Finally you create the action contact file : contact.html.erb. You can add this 
 
 #####Touch is used to add files 
 ```
-touch app/views/actionName/contact.html.erb
+touch app/views/ControllerName/contact.html.erb
 
 ```
 
