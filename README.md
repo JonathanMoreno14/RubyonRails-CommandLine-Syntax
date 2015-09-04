@@ -70,4 +70,20 @@ bundle exec rake db:rollback
 ```
 bundle exec rake db:migrate VERSION=0
 ```
+###Manually adding action/controllers to the rails app
+In your file directory you first go to your routes file
+For example we added contact
+config/routes.rb
+```ruby
+Rails.application.routes.draw do
+  get 'ControllerName/actionname1'
+  get 'ControllerName/actionname2'
+  get 'ControllerName/contact'
+  
+  
+  
+end
+```
+
+
 
