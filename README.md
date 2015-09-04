@@ -33,7 +33,14 @@ rails generate controller ControllerName <optional action names>
 Example: rails generate controller staticPages home about contact help
 ```
 
-
+###Rails shortcuts
+| Full command        | Shortcut         | 
+| ------------- |:-------------:| 
+| rails server     | rails s | 
+| rails console      | rails c |   
+| rails generate | rails g |    
+| bundle install | bundle |    
+| rake test | rake  |    
 
 
 
