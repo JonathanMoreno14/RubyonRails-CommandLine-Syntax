@@ -85,9 +85,7 @@ Rails.application.routes.draw do
   
 end
 ```
-From there we add contact to the controller
-
-Go into your file directory for the controller.rb file
+From there we add contact to the controller go into your file directory for the controller.rb file
 
 **app/controllers/controller_name.rb**
 
