@@ -62,5 +62,8 @@ rails destroy controller ControllerName <optional action names>
 ```
 rails destroy model ModelName
 ```
-
+#####Undoing a sinlge migration
+```
+bundle exec rake db:rollback
+```
 
