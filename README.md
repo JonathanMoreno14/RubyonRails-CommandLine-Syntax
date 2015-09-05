@@ -15,7 +15,7 @@ rails new 'appname'
 
 #####Connecting to the Rails to the server
 ```
-rails sever
+rails server
 ```
 #####updating the gems in the rails application
 ```
@@ -110,6 +110,15 @@ Finally you create the action contact file : contact.html.erb. You can add this 
 ```
 touch app/views/ControllerName/contact.html.erb
 
+```
+
+#####Change files name temporarily
+ ```
+ mv app/views/layouts/application.html.erb layout_file 
+```
+#####To retore/rename the file
+ ```
+ mv layout_file app/views/layouts/application.html.erb 
 ```
 
 ###Ruby on Rails Topics
