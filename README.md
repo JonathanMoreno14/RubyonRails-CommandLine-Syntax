@@ -120,7 +120,22 @@ touch app/views/ControllerName/contact.html.erb
  ```
  mv layout_file app/views/layouts/application.html.erb 
 ```
+#####Setting up a root route
 
+To set up a root route go into your routes.rb file
+
+**config/routes.rb**
+ ```
+root 'ControllerName#actionname1'
+```
+ ```ruby
+  Rails.application.routes.draw do
+   root  'ControllerName#actionname1'
+   get 'ControllerName/actionname2'
+   get 'ControllerName/contact'
+   
+ end
+```
 ###Ruby on Rails Topics
 [Testing](https://github.com/JonathanMoreno14/RubyonRails-CommandLine-Syntax/blob/master/RubyonRails-Topics/Testing)
 
