@@ -70,7 +70,7 @@ bundle exec rake db:rollback
 ```
 bundle exec rake db:migrate VERSION=0
 ```
-###Manually adding action/controllers to the rails app
+###Manually adding action/controllers to your  Rails application
 In your file directory you first go to your routes file
 
 **config/routes.rb**
@@ -111,6 +111,7 @@ Finally you create the action contact file : contact.html.erb. You can add this 
 touch app/views/ControllerName/contact.html.erb
 
 ```
+After adding the contact.html.erb file then you are finished. You have manually created a action/controller into your Rails application.
 
 #####Change files name temporarily
  ```
@@ -130,7 +131,7 @@ root 'ControllerName#actionname1'
 ```
  ```ruby
   Rails.application.routes.draw do
-   root  'ControllerName#actionname1'
+   root 'ControllerName#actionname1'
    get 'ControllerName/actionname2'
    get 'ControllerName/contact'
    
