@@ -146,6 +146,8 @@ root 'ControllerName#actionname1'
 
 [Heroku Setup](https://github.com/JonathanMoreno14/RubyonRails-CommandLine-Syntax/blob/master/RubyonRails-Topics/Heroku-setup.md)
 
+[Issues](https://github.com/JonathanMoreno14/RubyonRails-CommandLine-Syntax/blob/master/RubyonRails-Topics/Issues.md)
+
 [Testing](https://github.com/JonathanMoreno14/RubyonRails-CommandLine-Syntax/blob/master/RubyonRails-Topics/Testing.md)
 
 
