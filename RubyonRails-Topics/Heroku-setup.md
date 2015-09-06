@@ -54,7 +54,7 @@ If you delete it by accident and your trying to utilize git push heroku master a
        ! No such app as heroku-app-name-here.
        fatal: Could not read from remote repository
 ```
-Then follwoing will remove the first herouk master file 
+Then follwoing will remove the first heroku master file 
 ```
      git remote rm heroku
 ```
