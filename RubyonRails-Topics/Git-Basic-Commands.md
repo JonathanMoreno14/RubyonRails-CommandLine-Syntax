@@ -1,4 +1,4 @@
-##Git basic commands
+##Git Basic Commands
 
 Initializes the repository
 
