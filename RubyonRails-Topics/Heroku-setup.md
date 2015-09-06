@@ -20,7 +20,9 @@ Add it at the bottom of the Gemfile you will be adding a new group designated fo
 ```
     
 After the gems have been added we will run bundle install
+```
      bundle install --without production
+```
 Once the bundle is installed in your git bash terminal run
      heroku login
 Upload your credentials
