@@ -141,5 +141,8 @@ root 'ControllerName#actionname1'
 
 [Embedded Ruby](https://github.com/JonathanMoreno14/RubyonRails-CommandLine-Syntax/blob/master/RubyonRails-Topics/Embedding-Ruby-erb.md)
 
+[Heroku Setup](https://github.com/JonathanMoreno14/RubyonRails-CommandLine-Syntax/blob/master/RubyonRails-Topics/Heroku-setup.md)
+
 [Testing](https://github.com/JonathanMoreno14/RubyonRails-CommandLine-Syntax/blob/master/RubyonRails-Topics/Testing.md)
+
 
