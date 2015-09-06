@@ -1,7 +1,7 @@
 ##Known Issues
 There as been many instances where developing or learning Ruby on Rails on a Windows machine is at times, time consuming due to the nature of the trouble-shooting issues that arise. One issue that I think that is consistant is the configuration when you use RailsInstaller. 
 
-The best way to fix this error is by the following
+#####The best way to fix this error is by the following
 
 "Windows does not include zoneinfo files, so bundle the tzinfo-data gem" within the gemfile
 
@@ -13,6 +13,7 @@ From:
 ```ruby
  gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw]
 ```
+#####Other Issue
 
 The other issue is when you install RailsInstaller for the first time and create a new rails app and you cannot access the Ruby Gems due to the nature of the SSL Certificate. This configuration will need to be added manually. 
 
