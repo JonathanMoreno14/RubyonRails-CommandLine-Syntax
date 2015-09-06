@@ -2,6 +2,9 @@
 
 According to Rails Tutorial author Michael Hartl "*ERb is the primary template system for including dynamic content in web pages*." 
 
+[Michael Hartl Rails Tutorial](https://www.railstutorial.org/)
+
+
 #####Sample code from Rails Tutorial
 This code illustrates the usage of ERb within an html document. 
 
