@@ -3,7 +3,7 @@ Testing is an important aspect for any Rails developer. With proper test-driven 
 
 This link illustrates Michael Hartl's view on test-driven development (TDD) and when it is needed
 
-Box 3.3. When to test
+ [*Box 3.3. When to test*](https://www.railstutorial.org/book/static_pages)
 
 
 
