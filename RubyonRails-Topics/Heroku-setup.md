@@ -60,6 +60,7 @@ Then follwoing will remove the first herouk master file
 ```
 This will let you add a new heroku master file and be able to push the application to heroku.   
 
-======Side note 2: If you are having problems with heroku you can use heroku logs to check the problem
+######Side note 2: If you are having problems with heroku you can use heroku logs to check the problem
+```
       heroku logs
-
+```
