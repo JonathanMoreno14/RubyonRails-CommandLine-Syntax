@@ -37,12 +37,18 @@ Next in your git bash type:
 
 Once Heroku is created you will see a custom URL followed by herokuapp.com
 You will need to push the git folder into heroku to finalize the deployment
+```
     git push heroku master
+```
 The last thing you will need to do is in your git bash terminal you will need to migrate your database
+```
     heroku run rake db:migrate
+```
 Finally to open your heroku app and view it on your web browser
+```
     heroku open
-======Side note 1: If you accidently delete your Rails application on heroku
+```
+######Side note 1: If you accidently delete your Rails application on heroku
 If you delete it by accident and your trying to utilize git push heroku master and there is an error such as this one:
        ! No such app as heroku-app-name-here.
        fatal: Could not read from remote repository
