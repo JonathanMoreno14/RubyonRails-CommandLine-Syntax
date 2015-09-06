@@ -24,12 +24,17 @@ After the gems have been added we will run bundle install
      bundle install --without production
 ```
 Once the bundle is installed in your git bash terminal run
+```
      heroku login
+```
 Upload your credentials
 From there you will need to initilaize a git repo within your Rails project. If you have already have a git repository in your Rails project folder all you will need to do is add the updated files and commit to the master repository. I ran into an issue when I first deployed it to Heroku. 
 
 Next in your git bash type:
+```
     heroku create
+```
+
 Once Heroku is created you will see a custom URL followed by herokuapp.com
 You will need to push the git folder into heroku to finalize the deployment
     git push heroku master
