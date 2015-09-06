@@ -138,6 +138,8 @@ root 'ControllerName#actionname1'
  end
 ```
 ###Ruby on Rails Topics
-[Testing](https://github.com/JonathanMoreno14/RubyonRails-CommandLine-Syntax/blob/master/RubyonRails-Topics/Testing)
 
 [Embedded Ruby](https://github.com/JonathanMoreno14/RubyonRails-CommandLine-Syntax/blob/master/RubyonRails-Topics/Embedding-Ruby-erb.md)
+
+[Testing](https://github.com/JonathanMoreno14/RubyonRails-CommandLine-Syntax/blob/master/RubyonRails-Topics/Testing.md)
+
