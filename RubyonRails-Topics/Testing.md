@@ -6,6 +6,17 @@ This link illustrates Michael Hartl's view on test-driven development (TDD) and 
  [*Box 3.3. When to test*](https://www.railstutorial.org/book/static_pages)
 
 
+###Testing features
 
+#####To run our test suite
+```
+bundle exec rake test
 
+```
+#####Method, that test the presence of an HTML tag
+
+```
+assert_select "HTML tag"
+
+```
 
