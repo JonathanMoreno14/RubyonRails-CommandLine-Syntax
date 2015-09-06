@@ -1,5 +1,5 @@
 # RubyonRails-CommandLine-Syntax
-This repository is a list of Command Line features used in the process of creating Rails applications. The repository also includes Ruby syntax for the usage of Rails development. In other words its more of a Rails cheat Sheet.
+This repository is a list of Command Line features used in the process of creating Rails applications. The repository also includes Ruby syntax for the usage of Rails development, but also includes resources of information for learning and using Ruby on Rails. In other words its more of a Rails cheat Sheet. Feel free to add more information that will be helpful for new and advance users of Ruby on Rails.
 
 
 #####Creating a Rails application
