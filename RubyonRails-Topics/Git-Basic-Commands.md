@@ -2,7 +2,7 @@
 
 Initializes the repository
 
-       git init
+     git init
 Adds the files into the initialized repository
 
      git add -A
