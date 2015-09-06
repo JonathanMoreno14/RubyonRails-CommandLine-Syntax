@@ -16,3 +16,17 @@ This code illustrates the usage of ERb within an html document.
 ```
 
 **<% ... %>** is used by Rails to call the *provide* function and connect the string *home* with the *title* label. From there  we use **<%= ... %>** to place the *title* into the html by using Ruby's *yield* function. The difference between the both is not just the  **=** sign but also the distinction of each ones usage. As Michael Hartl points out; "*<% ... %> executes the code inside, while <%= ... %> executes it and inserts the result into the template*."
+
+
+
+#####Embedding Code into the content of a webpage using Ruby
+*yield* is used to embed content to a layout of a webpage
+```
+<%= yield %>
+```
+```html
+<body>
+    <%= yield %>
+</body>
+
+```
