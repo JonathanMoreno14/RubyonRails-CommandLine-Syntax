@@ -21,5 +21,11 @@
 ```ruby
   "  "  # This is an empty string
   "Hello World"  # This is a nonempty string
+  
+  a_string = "Hello World"  # A string with double qoutes
+
+  a_string = 'Hello World'  # A string with single qoutes
+
+  puts(a_string) # puts prints out Hello World
 
 ```
