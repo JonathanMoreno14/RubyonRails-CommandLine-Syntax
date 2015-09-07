@@ -50,6 +50,11 @@ Example: rails generate controller staticPages home about contact help
 | bundle install | bundle |    
 | rake test | rake  |    
 
+#####Rails Console
+ ````
+ rails console
+ ```
+
 #####Rails Destroy
 ```
 rails destroy
