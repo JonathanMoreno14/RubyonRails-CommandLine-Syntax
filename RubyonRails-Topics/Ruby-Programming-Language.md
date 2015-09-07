@@ -22,6 +22,7 @@
   "  "  # This is an empty string
   "Hello World"  # This is a nonempty string
   
+  # these strings are assigned to a variable
   a_string = "Hello World"  # A string with double qoutes
 
   a_string = 'Hello World'  # A string with single qoutes
