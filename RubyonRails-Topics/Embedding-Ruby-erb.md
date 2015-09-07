@@ -34,7 +34,7 @@ This code illustrates the usage of ERb within an html document.
 #####Stylesheet
 **stylesheet_link_tag**
 
-Ruby on Rails API states that the tag "*Returns a stylesheet link tag for the sources specified as arguments. If you don't specify an extension, .css will be appended automatically. You can modify the link attributes by passing a hash as the last argument.*" 
+[Ruby on Rails API](http://api.rubyonrails.org/classes/ActionView/Helpers/AssetTagHelper.html) states that the tag "*Returns a stylesheet link tag for the sources specified as arguments. If you don't specify an extension, .css will be appended automatically. You can modify the link attributes by passing a hash as the last argument.*" 
 
 ```html
  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
