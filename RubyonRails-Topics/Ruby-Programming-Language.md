@@ -18,3 +18,8 @@
 ```
 
 #####Strings
+```ruby
+  "  "  # This is an empty string
+  "Hello World"  # This is a nonempty string
+
+```
