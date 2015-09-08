@@ -138,3 +138,12 @@ end
   end
 
 ```
+#####Special methods for converting integers and strings
+```ruby
+# .to_i converts string to integer
+"45".to_i   # Prints 45
+
+# .to_s converts integer to string
+ 45.to_s    # Prints "45"
+
+```
