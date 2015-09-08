@@ -114,6 +114,27 @@
    "hw is greater than 5"                   # It is true then it prints hw is greater than 5
 end
 
+```
+#####Logical Operators
+```ruby
+#&& (“and”), || (“or”), and ! (“not”)
+# && both have to be true
+# || One of the them has to be true 
+# ! none are true
 
+   hw = "Hello World"
+   
+   emp = ""
+
+  if hw.empty? && emp.empty?                          # Expression checks if both have empty strings it skips 
+      puts("There seems to be an empty string")
+      
+  elsif  hw.empty? || emp.empty?                      # Expression checks if one of the strings is empty
+     puts("One of the strings is empty")              # It checks and prints One of the strings is empty
+   
+  else !hw.empty?                                
+     puts("emp is empty")
+  
+  end
 
 ```
