@@ -95,3 +95,25 @@
   "".empty? #Another boolean expression checking and it prints true 
 
 ```
+#####Control FLow
+```ruby
+
+#if 
+ hw = "Hello World"  # String assigned to a variable
+ if hw.empty?                               # The expression is checked to see if hw is empty     
+ puts("There is no string assigned to hw")  # It skips through this conditional statement and:
+ else
+   puts("The string is printed: "+ hw)      # Prints this one because there is a string assigned to hw
+ end                                        # It prints, The string is printed: Hello World
+
+#elsif
+  hw = "HelloWorld"
+  if hw.length == 5                         # Expression is checked to see if the length of hw's string is equal to 5
+   "hw is equal to the length of 5"         # Since it is not true it skips to elsif
+  elsif hw.length > 5                       # Expression is checked to see if the length of hw is greater than 5
+   "hw is greater than 5"                   # It is true then it prints hw is greater than 5
+end
+
+
+
+```
