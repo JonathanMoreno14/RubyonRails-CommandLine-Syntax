@@ -230,3 +230,8 @@ num(78)  # prints The number is greater than 50
  # ["J", "K", "L", "M"]
 
 ```
+#####Blocks
+```ruby
+
+
+```
