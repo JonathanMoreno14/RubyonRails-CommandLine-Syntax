@@ -98,7 +98,7 @@
 #####Control FLow
 ```ruby
 
-#if 
+#if  #else
  hw = "Hello World"  # String assigned to a variable
  if hw.empty?                               # The expression is checked to see if hw is empty     
  puts("There is no string assigned to hw")  # It skips through this conditional statement and:
