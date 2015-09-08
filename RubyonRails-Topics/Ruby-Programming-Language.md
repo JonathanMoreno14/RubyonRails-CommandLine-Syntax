@@ -86,3 +86,12 @@
   \t # Tabs
 
 ```
+#####Objects/Messaging
+```ruby
+  "helloWorld".length #Prints the length of the string which is 10
+  
+  "helloWorld".empty? #Boolean expression checking if the string is empty, prints false
+  
+  "".empty? #Another boolean expression checking and it prints true 
+
+```
