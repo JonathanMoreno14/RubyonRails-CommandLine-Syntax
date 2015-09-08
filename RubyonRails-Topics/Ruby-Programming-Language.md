@@ -175,6 +175,8 @@ num(78)  # prints The number is greater than 50
 ```
 #####Data Structures
 ```ruby
+
+ #ARRAYS
  "hello   world  ruby     ".split  # Splits the string into an array
  #prints ["hello", "world", "ruby"]
  
@@ -219,5 +221,12 @@ num(78)  # prints The number is greater than 50
  # [34, 56, 23, 12, 78, 9, 56, 88]
  num << "Hello" << "World"  # Chain array pushes Hello World into the array and prints:
  # [34, 56, 23, 12, 78, 9, 56, 88, "Hello", "World"]
+ 
+ 
+ #RANGES
+ num = (0..12).to_a # Prints 0 to 12:
+ # [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+ ('J'..'M').to_a #Prints J through M in the alphabet
+ # ["J", "K", "L", "M"]
 
 ```
