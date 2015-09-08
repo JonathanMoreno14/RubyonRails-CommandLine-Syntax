@@ -173,3 +173,47 @@ end
 num(78)  # prints The number is greater than 50
 
 ```
+#####Data Structures
+```ruby
+ "hello   world  ruby     ".split  # Splits the string into an array
+ #prints ["hello", "world", "ruby"]
+ 
+ 
+ "hellojworldjrubyjj".split('j')  # Splits string and removes the string j
+ #prints ["hello", "world", "ruby"]
+
+  num = [34, 56, 23, 12, 78, 9, 56]    # Array with numbers
+
+  num[0] # Prints 34
+  num[3] # Prints 12
+  num[6] # Prints 56
+  num[5] # Prints 9
+
+ #Ruby synonyms
+ num.first # Prints 34
+ num.second # Prints 56
+ num.last  # Prints 56
+
+ num.length # Length method prints out 7
+ num != 1 #Prints true
+ 
+ #Other Methods
+ num.empty? # Prints false because the array is not empty
+ num.include?(14) # Prints false because the array does not contain the integer 14
+ num.sort # Prints and sorts the array from least to greatest: 
+ # [9, 12, 23, 34, 56, 56, 78]
+ num.reverse  # Prints and reverses the array: 
+ #[56, 9, 78, 12, 23, 56, 34]
+ num.shuffle #Prints and shuffles the array:
+ #[78, 56, 12, 23, 34, 9, 56]
+ 
+ #Push Method
+ num.push(99) # Adds 90 to the array and prints:
+ #[34, 56, 23, 12, 78, 9, 56, 99]
+ 
+ num << 88  #Pushing 88 into the array prints:
+ #[34, 56, 23, 12, 78, 9, 56, 88]
+ num << "Hello" << "World"  # Chain array pushes Hello World into the array and prints:
+ #[34, 56, 23, 12, 78, 9, 56, 88, "Hello", "World"]
+
+```
