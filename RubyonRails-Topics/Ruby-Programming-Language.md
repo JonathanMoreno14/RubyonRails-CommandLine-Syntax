@@ -147,3 +147,13 @@ end
  45.to_s    # Prints "45"
 
 ```
+#####Special Statements
+```ruby
+ string = "Hello World"
+ puts "The string '#{string}' is assigned to string." unless string.empty?  # Prints The string 'Hello World' is assigned to  string.
+ 
+  hw = "Hello World"
+  r="Ruby"
+ puts("Hello World length is greater than Ruby length") if hw.length > r.length  # Prints Hello World length is greater than Ruby length
+
+```
