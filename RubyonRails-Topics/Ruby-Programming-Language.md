@@ -2,7 +2,7 @@
 
 #####Commenting
 ```ruby
-#commenting in ruby
+# Commenting in ruby
 ```
 
 #####Computation
@@ -28,5 +28,29 @@
   a_string = 'Hello World'  # A string with single qoutes
 
   puts(a_string) # puts prints out Hello World
+
+```
+######Concatenate 
+
+```ruby
+  "hello" + " World"  # Prints out Hello World this is a string concatenation
+
+   h ="hello" 
+
+   w = " World"
+
+   puts("The program says " + h + w) #Prints out The program says hello World this is also a string concatenation
+
+```
+######Interpolation
+```ruby
+
+  h ="hello" 
+  
+  w = "World"
+  
+  "#{h} #{w}" #Prints out hello World
+  
+  puts("The program says " + "#{h} #{w}")  # Prints out The program says hello World
 
 ```
