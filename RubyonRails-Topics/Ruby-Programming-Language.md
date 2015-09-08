@@ -54,3 +54,35 @@
   puts("The program says " + "#{h} #{w}")  # Prints out The program says hello World
 
 ```
+#####Variables
+```ruby
+  # Strings assigned to a variables
+  h ="hello" 
+  
+  w = "World"  
+  
+  me = "Jonathan"
+  
+  does = "Programs"
+  
+  # Integers assigned to variables
+  num_1 =45 
+
+  num_2 =12 
+
+```
+
+#####Printing
+```ruby
+  puts("Hello World")   # puts prints string Hello World
+
+  print("Hello World")  # prints string Hello World
+
+```
+
+#####Newlines/Tabs
+```ruby
+  \n # Newline
+  \t # Tabs
+
+```
