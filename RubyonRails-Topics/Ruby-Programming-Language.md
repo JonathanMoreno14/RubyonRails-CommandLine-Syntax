@@ -157,3 +157,22 @@ end
  puts("Hello World length is greater than Ruby length") if hw.length > r.length  # Prints Hello World length is greater than Ruby length
 
 ```
+
+#####Methods
+```ruby
+
+def num(int= '')                     # Method def 
+  if int > 50                        # The user inputs a number in num() it checks if the number is greater than 50
+    "The number is greater than 50"
+  else                               # else the number is less than 50 
+    "The number is less than 50"
+  end
+end
+
+
+num(78)  # prints The number is greater than 50
+
+
+
+
+```
