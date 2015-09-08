@@ -203,17 +203,21 @@ num(78)  # prints The number is greater than 50
  num.sort # Prints and sorts the array from least to greatest: 
  # [9, 12, 23, 34, 56, 56, 78]
  num.reverse  # Prints and reverses the array: 
- #[56, 9, 78, 12, 23, 56, 34]
+ # [56, 9, 78, 12, 23, 56, 34]
  num.shuffle #Prints and shuffles the array:
- #[78, 56, 12, 23, 34, 9, 56]
+ # [78, 56, 12, 23, 34, 9, 56]
+ num.join # Joins the array together and prints:
+ # "3456231278956"
+ num.join(',') # Joins the array together along with the comma char and prints:
+ # "34,56,23,12,78,9,56"
  
  #Push Method
  num.push(99) # Adds 90 to the array and prints:
- #[34, 56, 23, 12, 78, 9, 56, 99]
+ # [34, 56, 23, 12, 78, 9, 56, 99]
  
  num << 88  #Pushing 88 into the array prints:
- #[34, 56, 23, 12, 78, 9, 56, 88]
+ # [34, 56, 23, 12, 78, 9, 56, 88]
  num << "Hello" << "World"  # Chain array pushes Hello World into the array and prints:
- #[34, 56, 23, 12, 78, 9, 56, 88, "Hello", "World"]
+ # [34, 56, 23, 12, 78, 9, 56, 88, "Hello", "World"]
 
 ```
