@@ -77,6 +77,8 @@
   puts("Hello World")   # puts prints string Hello World
 
   print("Hello World")  # prints string Hello World
+  
+  p("Hellow World")    # Prints "Hello World"
 
 ```
 
