@@ -161,8 +161,6 @@ root 'ControllerName#actionname1'
 
 [SASS Basics](https://github.com/JonathanMoreno14/RubyonRails-CommandLine-Syntax/blob/master/RubyonRails-Topics/SASS-Basics.md)
 
-https://github.com/JonathanMoreno14/RubyonRails-CommandLine-Syntax/blob/master/RubyonRails-Topics/SASS-Basics.md
-
 [Testing](https://github.com/JonathanMoreno14/RubyonRails-CommandLine-Syntax/blob/master/RubyonRails-Topics/Testing.md)
 
 
