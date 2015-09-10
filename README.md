@@ -157,6 +157,8 @@ root 'ControllerName#actionname1'
 
 [Ruby Programming Language](https://github.com/JonathanMoreno14/RubyonRails-CommandLine-Syntax/blob/master/RubyonRails-Topics/Ruby-Programming-Language.md)
 
+[Ruby on Rails Part 2](https://github.com/JonathanMoreno14/RubyonRails-CommandLine-Syntax/blob/master/RubyonRails-Topics/Ruby-on-Rails-Part2.md)
+
 
 
 [Testing](https://github.com/JonathanMoreno14/RubyonRails-CommandLine-Syntax/blob/master/RubyonRails-Topics/Testing.md)
