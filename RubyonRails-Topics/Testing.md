@@ -20,9 +20,9 @@ assert_select "HTML tag"
 
 ```
 
-##Testing the Links layouts
+##Testing Links
 
-Testing the links within the layout will be created by adding a new test file associated with ***integration test*** 
+Testing the links within the layout will be created by adding a new test file associated with the ***integration test*** 
 
 We begin by generating a template. The template can be called what ever you like. 
 ```
