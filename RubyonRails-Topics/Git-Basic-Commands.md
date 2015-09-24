@@ -36,3 +36,6 @@
 
      cd ..
 
+#####Clearing the git bash terminal
+
+     clear
