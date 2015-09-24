@@ -27,6 +27,12 @@ bundle update
 ```
 bundle exec rake db:migrate
 ```
+
+#####Reseting the database
+```
+bundle exec rake db:migrate:reset
+```
+
 #####To See all Rake task available
 ```
 bundle exec rake -T
