@@ -192,7 +192,7 @@ Finally your done! You can add partials for other items as well.
 
 ##Setting up a full_title helper
 
-We are going to add Embedded Ruby into our **app/views/layouts/application.html.erb** file. We will add the following  title into the **head** tags **<head></head>** 
+We are going to add Embedded Ruby into our **app/views/layouts/application.html.erb** file. We will add the following  title into the **head** tags  **<head></head>** 
 
 ```html
  <title><%= full_title(yield(:title)) %></title>
@@ -220,4 +220,36 @@ We are going to add Embedded Ruby into our **app/views/layouts/application.html.
     </div>
   </body>
 </html>
+```
+###Next
+
+In our helper class within the file **app/helpers/application_helper.rb** we will add a method that will be used to call out different titles in our application. 
+
+```ruby
+ # Returns the full title on a per-page basis.       
+  def full_title(page_title = '')                     
+    base_title = "Title of the Rails Application"  
+    if page_title.empty?                             
+      base_title                                     
+    else
+      page_title + " | " + base_title                
+    end
+  end
+```
+
+###Finally
+
+We will add another Embedded Ruby this time in our **app/views/controllerName** files. 
+```ruby
+<% provide(:title, "Title") %>
+
+```
+We will use an example, let's use **contact.html.erb** you can add the **<% provide(:title, "Title") %>** to any **name.html.erb** file
+
+```html
+<% provide(:title, "Contact") %>
+<!--This is just a simple contact.html.erb file with a header 1 and paragraph -->
+<h1>ControllerName#Contact</h1>
+<p>Find me in app/views/controllerName/contact.html.erb</p>
+
 ```
