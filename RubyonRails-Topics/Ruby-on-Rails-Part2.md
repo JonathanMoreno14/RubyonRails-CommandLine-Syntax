@@ -192,7 +192,7 @@ Finally your done! You can add partials for other items as well.
 
 ##Setting up a full_title helper
 
-We are going to add Embedded Ruby into our **app/views/layouts/application.html.erb** file. We will be add the following  title into the **head** tags **<head></head>** 
+We are going to add Embedded Ruby into our **app/views/layouts/application.html.erb** file. We will add the following  title into the **head** tags **<head></head>** 
 
 ```html
  <title><%= full_title(yield(:title)) %></title>
