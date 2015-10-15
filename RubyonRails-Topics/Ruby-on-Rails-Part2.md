@@ -76,7 +76,7 @@ Lets say you have a navigation bar and you want to have the logo be an actual li
 ```
 
 
-###Partials
+##Partials
 
 Partials *"are another device for breaking the rendering process into more manageable chunks. With a partial, you can move the code for rendering a particular piece of a response to its own file."* [Rails API -Layouts and Rendering](http://guides.rubyonrails.org/layouts_and_rendering.html#using-partials)
 
@@ -190,4 +190,5 @@ Finally your done! You can add partials for other items as well.
 
 
 
+##Setting up a full_title helper
 
