@@ -15,7 +15,7 @@ rails new 'appname'
  bundle install
 ```
 
-#####Connecting to the Rails to the server
+#####Connecting to the Rails server
 ```
 rails server
 
