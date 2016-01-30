@@ -18,7 +18,14 @@ rails new 'appname'
 #####Connecting to the Rails to the server
 ```
 rails server
+
+URL: localhost:3000
+
 ```
+
+![railss](https://cloud.githubusercontent.com/assets/11635523/12693350/10e4f3dc-c6cd-11e5-88ae-df2524537a04.PNG)
+
+
 #####updating the gems in the rails application
 ```
 bundle update
