@@ -176,4 +176,4 @@ root 'ControllerName#actionname1'
 
 [Testing](https://github.com/JonathanMoreno14/RubyonRails-CommandLine-Syntax/blob/master/RubyonRails-Topics/Testing.md)
 
-
+[Basic Authentication system using Devise](basic-authentication-using-devise.md)
