@@ -99,7 +99,7 @@ You will need to add the sign up and login attributes to the layout for the appl
 
 **app/views/layouts/application.html.erb**
 
-```
+```ruby
   <% if(!user_signed_in?) %>
               <li><%=  link_to "Sign Up", new_user_registration_path %></li>
               <li><%=  link_to "Login", new_user_session_path %></li>
@@ -111,7 +111,7 @@ You will need to add the sign up and login attributes to the layout for the appl
 
 Then you add the flash messages on **app/views/layouts/application.html.erb**
 
-```
+```ruby
 <p class="notice"><%= notice %></p>
 <p class="alert"><%= alert %></p>
 ```
@@ -120,12 +120,12 @@ Then you add the flash messages on **app/views/layouts/application.html.erb**
 
 Finally, for logging out of the web application you would add
 
-```
+```ruby
 <%= link_to "Log out", destroy_user_session_path, method: :delete %>
 ```
 into the specified location for the logout, a great example is when you have a dropdown menu for the user, once he or she has signed in. The log out will show. 
 
-```
+```ruby
 <ul id="dropdown2" class="dropdown-content">
     <li><a href="#!">My Profile</a></li>
     <li><a href="#!">My Courses</a></li>
