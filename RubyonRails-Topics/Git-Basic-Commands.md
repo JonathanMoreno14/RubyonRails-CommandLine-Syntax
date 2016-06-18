@@ -26,6 +26,16 @@
 
      git checkout master
      git merge topic-branch-name
+     
+#####Adding a local repository to a remote repository
+
+     git remote add origin remote repository_URL
+     git push origin master
+     
+     //the -f origin master is only used if you cannot push the origin master
+     //the -f origin master forces the push to the remote repository
+     git push -f origin master     
+     
 #####Navigating through folders using git bash
 
      cd filename
